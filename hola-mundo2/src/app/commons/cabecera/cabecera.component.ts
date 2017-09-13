@@ -6,10 +6,14 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./cabecera.component.css']
 })
 export class CabeceraComponent implements OnInit {
+  public curso: string;
 
-  constructor() { }
+  constructor() { 
+    this.ngOnInit();
+  }
 
   ngOnInit() {
+    this.curso = "Angular 2.0";
   }
 
 }
