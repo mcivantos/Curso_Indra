@@ -7,12 +7,14 @@ import { NgModule, Input } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { IdeasComponent } from './ideas/ideas.component';
+import { NoticiaComponent } from './noticia/noticia.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     FormularioComponent,
-    IdeasComponent
+    IdeasComponent,
+    NoticiaComponent
   ],
   imports: [
     BrowserModule,

@@ -21,4 +21,8 @@ export class IdeasComponent implements OnInit {
     this.aIdeas.push(this.idea);
   }
 
+  deleteIdeas(){
+    this.aIdeas.pop();
+  }
+
 }
