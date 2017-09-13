@@ -1,0 +1,11 @@
+<form action="">
+  <label for="idea">Dime tu idea</label>
+  <input type = "text" id = "idea" name = "idea" [(ngModel)] = "idea">
+  <button (click) = "addIdeas()">Añadir</button>
+</form>
+<ul>
+  <li *ngFor = "let idea of aIdeas">
+    {{idea}}
+  </li>
+</ul>
+
