@@ -1,0 +1,15 @@
+{
+     "headerData":{
+             "pagination":{
+                      "paginationFlag" : "true", 
+                      "paginationKey":"2" 
+                        }
+                   },
+  "insertDeviceOutputType": {
+    "status":"OK",
+    "description":"DISPOSITIVO DADO DE ALTA"
+  }
+  }
+
+
+  
