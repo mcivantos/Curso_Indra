@@ -8,13 +8,15 @@ import { NgModule, Input } from '@angular/core';
 import { AppComponent } from './app.component';
 import { IdeasComponent } from './ideas/ideas.component';
 import { NoticiaComponent } from './noticia/noticia.component';
+import { Formulario2Component } from './formulario2/formulario2.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     FormularioComponent,
     IdeasComponent,
-    NoticiaComponent
+    NoticiaComponent,
+    Formulario2Component
   ],
   imports: [
     BrowserModule,

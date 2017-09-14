@@ -1,0 +1,36 @@
+
+  
+  <h3>Selección de opciones</h3>
+  
+  <form antion = "">
+    <div>
+    <p>
+    <input type = "checkbox" name = "resultado" [(ngModel)] = "resultado">
+    <label for="resultado">Imprimir resultado</label>
+    </p>
+    <p>
+    <input type = "checkbox" name = "tono" [(ngModel)] = "tono">
+    <label for = "tono">Tono claro</label>
+    </p>
+    <p>
+      <label>Provincia: </label>
+      <select [(ngModel)] = "provinciaSeleccionada" [ngModelOptions]="{standalone: true}">
+        <option *ngFor = "let provincia of provincias" [ngValue] = "provincia">{{provincia.nombre}}
+        </option>
+      </select>
+    </p>
+    </div>
+  </form>
+  
+  <div>
+  <h3>Resultado</h3>
+  <ul>
+    <li>Opción print seleccionada: {{resultado}}
+    </li>
+    <li>Opción tono seleccionada: {{tono}}
+    </li>
+    <li>Provincia seleccionada: {{provinciaSeleccionada.nombre}}
+    </li>
+  </ul>
+  </div>
+
