@@ -9,6 +9,8 @@ import { AppComponent } from './app.component';
 import { IdeasComponent } from './ideas/ideas.component';
 import { NoticiaComponent } from './noticia/noticia.component';
 import { Formulario2Component } from './formulario2/formulario2.component';
+import { ListacompraComponent } from './listacompra/listacompra.component';
+import { AddelementsComponent } from './addelements/addelements.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +18,10 @@ import { Formulario2Component } from './formulario2/formulario2.component';
     FormularioComponent,
     IdeasComponent,
     NoticiaComponent,
-    Formulario2Component
+    Formulario2Component,
+    ListacompraComponent,
+    AddelementsComponent
+    
   ],
   imports: [
     BrowserModule,
@@ -27,5 +32,9 @@ import { Formulario2Component } from './formulario2/formulario2.component';
   bootstrap: [AppComponent]
 })
 export class AppModule {
+
+  addElement(element: string){
+    
+  }
 
  }
